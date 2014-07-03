@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C734B3041965379C00B0537A /* JellyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B3031965379C00B0537A /* JellyAlert.m */; };
+		C734B30A1965AC4D00B0537A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B3091965AC4D00B0537A /* FirstViewController.m */; };
+		C734B30D1965AF9F00B0537A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B30C1965AF9F00B0537A /* SecondViewController.m */; };
+		C734B3101965AFD100B0537A /* JellyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B30F1965AFD100B0537A /* JellyButton.m */; };
+		C734B3141965E25100B0537A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B3131965E25100B0537A /* FourthViewController.m */; };
+		C734B3171965E55200B0537A /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C734B3161965E55200B0537A /* FifthViewController.m */; };
 		C7BB40AE1965327400F73A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40AD1965327400F73A7C /* Foundation.framework */; };
 		C7BB40B01965327400F73A7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40AF1965327400F73A7C /* CoreGraphics.framework */; };
 		C7BB40B21965327400F73A7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40B11965327400F73A7C /* UIKit.framework */; };
@@ -14,13 +20,14 @@
 		C7BB40BA1965327400F73A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40B91965327400F73A7C /* main.m */; };
 		C7BB40BE1965327400F73A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40BD1965327400F73A7C /* AppDelegate.m */; };
 		C7BB40C11965327400F73A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB40BF1965327400F73A7C /* Main.storyboard */; };
-		C7BB40C41965327400F73A7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40C31965327400F73A7C /* ViewController.m */; };
+		C7BB40C41965327400F73A7C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40C31965327400F73A7C /* ThirdViewController.m */; };
 		C7BB40C61965327400F73A7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BB40C51965327400F73A7C /* Images.xcassets */; };
 		C7BB40CD1965327400F73A7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40CC1965327400F73A7C /* XCTest.framework */; };
 		C7BB40CE1965327400F73A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40AD1965327400F73A7C /* Foundation.framework */; };
 		C7BB40CF1965327400F73A7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB40B11965327400F73A7C /* UIKit.framework */; };
 		C7BB40D71965327400F73A7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BB40D51965327400F73A7C /* InfoPlist.strings */; };
 		C7BB40D91965327400F73A7C /* VBFJellyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40D81965327400F73A7C /* VBFJellyViewTests.m */; };
+		C7BB40E4196532C200F73A7C /* VBFJellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB40E3196532C200F73A7C /* VBFJellyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C734B3021965379C00B0537A /* JellyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyAlert.h; sourceTree = "<group>"; };
+		C734B3031965379C00B0537A /* JellyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyAlert.m; sourceTree = "<group>"; };
+		C734B3081965AC4D00B0537A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C734B3091965AC4D00B0537A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C734B30B1965AF9F00B0537A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C734B30C1965AF9F00B0537A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C734B30E1965AFD000B0537A /* JellyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyButton.h; sourceTree = "<group>"; };
+		C734B30F1965AFD100B0537A /* JellyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyButton.m; sourceTree = "<group>"; };
+		C734B3121965E25100B0537A /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C734B3131965E25100B0537A /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		C734B3151965E55200B0537A /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		C734B3161965E55200B0537A /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		C7BB40AA1965327400F73A7C /* VBFJellyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBFJellyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BB40AD1965327400F73A7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7BB40AF1965327400F73A7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +64,16 @@
 		C7BB40BC1965327400F73A7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7BB40BD1965327400F73A7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7BB40C01965327400F73A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7BB40C21965327400F73A7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7BB40C31965327400F73A7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7BB40C21965327400F73A7C /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C7BB40C31965327400F73A7C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		C7BB40C51965327400F73A7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7BB40CB1965327400F73A7C /* VBFJellyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBFJellyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BB40CC1965327400F73A7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C7BB40D41965327400F73A7C /* VBFJellyViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBFJellyViewTests-Info.plist"; sourceTree = "<group>"; };
 		C7BB40D61965327400F73A7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7BB40D81965327400F73A7C /* VBFJellyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBFJellyViewTests.m; sourceTree = "<group>"; };
+		C7BB40E2196532C200F73A7C /* VBFJellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFJellyView.h; sourceTree = "<group>"; };
+		C7BB40E3196532C200F73A7C /* VBFJellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFJellyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C734B3111965B99800B0537A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB40E2196532C200F73A7C /* VBFJellyView.h */,
+				C7BB40E3196532C200F73A7C /* VBFJellyView.m */,
+				C734B30E1965AFD000B0537A /* JellyButton.h */,
+				C734B30F1965AFD100B0537A /* JellyButton.m */,
+				C734B3021965379C00B0537A /* JellyAlert.h */,
+				C734B3031965379C00B0537A /* JellyAlert.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		C7BB40A11965327400F73A7C = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +149,17 @@
 				C7BB40BC1965327400F73A7C /* AppDelegate.h */,
 				C7BB40BD1965327400F73A7C /* AppDelegate.m */,
 				C7BB40BF1965327400F73A7C /* Main.storyboard */,
-				C7BB40C21965327400F73A7C /* ViewController.h */,
-				C7BB40C31965327400F73A7C /* ViewController.m */,
+				C734B3081965AC4D00B0537A /* FirstViewController.h */,
+				C734B3091965AC4D00B0537A /* FirstViewController.m */,
+				C734B30B1965AF9F00B0537A /* SecondViewController.h */,
+				C734B30C1965AF9F00B0537A /* SecondViewController.m */,
+				C7BB40C21965327400F73A7C /* ThirdViewController.h */,
+				C7BB40C31965327400F73A7C /* ThirdViewController.m */,
+				C734B3121965E25100B0537A /* FourthViewController.h */,
+				C734B3131965E25100B0537A /* FourthViewController.m */,
+				C734B3151965E55200B0537A /* FifthViewController.h */,
+				C734B3161965E55200B0537A /* FifthViewController.m */,
+				C734B3111965B99800B0537A /* Views */,
 				C7BB40C51965327400F73A7C /* Images.xcassets */,
 				C7BB40B41965327400F73A7C /* Supporting Files */,
 			);
@@ -249,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BB40C41965327400F73A7C /* ViewController.m in Sources */,
+				C7BB40C41965327400F73A7C /* ThirdViewController.m in Sources */,
+				C734B30A1965AC4D00B0537A /* FirstViewController.m in Sources */,
 				C7BB40BE1965327400F73A7C /* AppDelegate.m in Sources */,
+				C734B30D1965AF9F00B0537A /* SecondViewController.m in Sources */,
+				C734B3101965AFD100B0537A /* JellyButton.m in Sources */,
 				C7BB40BA1965327400F73A7C /* main.m in Sources */,
+				C734B3141965E25100B0537A /* FourthViewController.m in Sources */,
+				C734B3041965379C00B0537A /* JellyAlert.m in Sources */,
+				C734B3171965E55200B0537A /* FifthViewController.m in Sources */,
+				C7BB40E4196532C200F73A7C /* VBFJellyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +506,7 @@
 				C7BB40DE1965327400F73A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7BB40DF1965327400F73A7C /* Build configuration list for PBXNativeTarget "VBFJellyViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				C7BB40E11965327400F73A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
