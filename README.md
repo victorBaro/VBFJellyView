@@ -14,7 +14,7 @@ Here some examples of stuff you can achieve with this view.
 
 	
 ## How to use it
-Download the project or Cocoapods <#JellyView#>. You will find the main view called **VBFJellyView**.  This class has 2 designated initializers:
+Download the project. You will find the main view called **VBFJellyView**.  This class has 2 designated initializers:
 
 		//DESIGNATED INITALIZER FOR DEFAULT VALUES
 	- (id)initWithFrame:(CGRect)frame
