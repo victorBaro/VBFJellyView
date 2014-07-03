@@ -7,7 +7,7 @@ VBFJellyView is a custom view made out using UIKit Dynamics and with a very funn
 
 ## Introduction
 This view was inspired by Skype app for iOS. 
-Apart from that, I have to thank @username for [this post](http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/). I took from there the trick of using CADisplayLink for changing the path of the CAShapeLayer used in this example.
+Apart from that, I have to thank @arekholko for [this post](http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/). I took from there the trick of using CADisplayLink for changing the path of the CAShapeLayer used in this example.
 Here some examples of stuff you can achieve with this view.
 
 [![Alt text for your video](http://img.youtube.com/vi/rzcevF0xyM4/0.jpg)](http://youtu.be/rzcevF0xyM4)
@@ -52,6 +52,7 @@ I extremely recommend you to visit my blog, [victorbaro.com](victorbaro.com) to 
 
 ## The project
 Inside the project you will find 5 Viewcontrollers:
+
 1. VBFJellyView with UIPanGestureRecognizer.
 2. JellyButton: a pushBehaviour is applied to the control points (midpoints) when the button is tapped
 3. JellyAlert: using VBFJellyView as AlertView. UIGravityBehaviour and UICollisionBehaviour are used in this example
