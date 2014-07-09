@@ -19,7 +19,7 @@
 
 - (void) buttonTapped:(UITapGestureRecognizer *)tapGesture {
     for (UIView *view in self.subviews) {
-        if (fmod(view.tag, 2) != 0) {
+        if (view.tag % 2 != 0) {
             //Apply push behav on control points
             UIPushBehavior *pushB = [[UIPushBehavior alloc]initWithItems:@[view] mode:UIPushBehaviorModeInstantaneous];
             UIView *centerView = self.subviews[4];

@@ -46,7 +46,7 @@
     CGPoint translation = [gesture translationInView:self.view];
     
     for (UIView *sView in self.jelly.subviews) {
-        if (fmod(sView.tag, 2) == 0) {
+        if (sView.tag % 2 == 0) {
             //Drag only the corner points, mdpoints will be pulled by corner points
             sView.center = CGPointMake(sView.center.x + translation.x, sView.center.y + translation.y);
             [self.jelly.mainAnimator updateItemUsingCurrentState:sView];

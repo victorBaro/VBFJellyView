@@ -10,7 +10,7 @@ This view was inspired by Skype app for iOS.
 Apart from that, I have to thank @arekholko for [this post](http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/). I took from there the trick of using CADisplayLink for changing the path of the CAShapeLayer used in this example.
 Here some examples of stuff you can achieve with this view.
 
-[![Alt text for your video](http://img.youtube.com/vi/rzcevF0xyM4/0.jpg)](http://youtu.be/rzcevF0xyM4)
+[![Example Video](http://img.youtube.com/vi/rzcevF0xyM4/0.jpg)](http://youtu.be/rzcevF0xyM4)
 
 	
 ## How to use it
@@ -42,13 +42,13 @@ By default, VBFJellyView class **does not have any behaviour attached to it**.
 Before knowing how you should interact with it, you should know that VBFJellyView it’s made from 9 subviews, connected to the one next to each other using UIAttachmentBehaviour. 
 That means, you should add behaviours to this 9 subviews (by accessing jellyView.subviews array). The views are positioned like the figure below illustrates:
 
-![alt tag](http://victorbaro.com/wp-content/uploads/2014/07/VBFJellyView-subviews.png)
+![Subview Layout](http://victorbaro.com/wp-content/uploads/2014/07/VBFJellyView-subviews.png)
 
 There are 2 ways of interacting with it:
 1. Use its public property *mainAnimator* to add behaviours (examples 1 and 4). 
 2. Subclass it to create your own custom stuff (examples 2 and 3)
 
-I extremely recommend you to visit my blog, [victorbaro.com](victorbaro.com) to understand a bit better how VBFJellyView is made. 
+I extremely recommend you to visit my blog, [victorbaro.com](http://victorbaro.com/) to understand a bit better how VBFJellyView is made. 
 
 ## The project
 Inside the project you will find 5 Viewcontrollers:
