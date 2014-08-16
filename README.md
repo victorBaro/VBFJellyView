@@ -2,13 +2,14 @@ VBFJellyView
 ============
 
 VBFJellyView is a custom view made out using UIKit Dynamics and with a very funny effect when adding behaviours to it.
-
+![JellyViewGif](http://victorbaro.com/wp-content/uploads/2014/07/jellyview.gif)
 
 
 ## Introduction
 This view was inspired by Skype app for iOS. 
 Apart from that, I have to thank @arekholko for [this post](http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/). I took from there the trick of using CADisplayLink for changing the path of the CAShapeLayer used in this example.
-Here some examples of stuff you can achieve with this view.
+
+Find in the following video some examples of stuff you can achieve with this view.
 
 [![Example Video](http://img.youtube.com/vi/rzcevF0xyM4/0.jpg)](http://youtu.be/rzcevF0xyM4)
 
