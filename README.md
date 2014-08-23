@@ -46,11 +46,14 @@ That means, you should add behaviours to this 9 subviews (by accessing jellyView
 
 ![Subview Layout](http://victorbaro.com/wp-content/uploads/2014/07/VBFJellyView-subviews.png)
 
+
 There are 2 ways of interacting with it:
-	1. Use its public property *mainAnimator* to add behaviours (examples 1 and 4). 
-	2. Subclass it to create your own custom stuff (examples 2 and 3)
+
+1. Use its public property *mainAnimator* to add behaviours (examples 1 and 4). 
+2. Subclass it to create your own custom stuff (examples 2 and 3)
 
 I extremely recommend you to visit my blog, [victorbaro.com](http://victorbaro.com/) to understand a bit better how VBFJellyView is made. 
+
 
 ## The project
 Inside the project you will find 5 Viewcontrollers:
