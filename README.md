@@ -2,7 +2,7 @@ VBFJellyView
 ============
 
 VBFJellyView is a custom view made out using UIKit Dynamics and with a very funny effect when adding behaviours to it.
-![JellyViewGif](http://victorbaro.com/wp-content/uploads/2014/07/jellyview.gif)
+![JellyViewGif](https://d13yacurqjgara.cloudfront.net/users/381133/screenshots/1694358/vbfjellyview.gif)
 
 
 ## Introduction
