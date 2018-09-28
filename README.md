@@ -3,7 +3,7 @@ VBFJellyView
 
 VBFJellyView is a custom view made out using UIKit Dynamics and with a very funny effect when adding behaviours to it.
 
-![JellyViewGif](http://victorbaro.com/wp-content/uploads/2014/07/jellyview.gif)
+![JellyViewGif](http://blog.victorbaro.com/wp-content/uploads/2014/07/jellyview.gif)
 
 
 ## Introduction
@@ -44,7 +44,7 @@ By default, VBFJellyView class **does not have any behaviour attached to it**.
 Before knowing how you should interact with it, you should know that VBFJellyView it’s made from 9 subviews, connected to the one next to each other using UIAttachmentBehaviour. 
 That means, you should add behaviours to this 9 subviews (by accessing jellyView.subviews array). The views are positioned like the figure below illustrates:
 
-![Subview Layout](http://victorbaro.com/wp-content/uploads/2014/07/VBFJellyView-subviews.png)
+![Subview Layout](http://blog.victorbaro.com/wp-content/uploads/2014/07/VBFJellyView-subviews-snaps.png)
 
 
 There are 2 ways of interacting with it:
